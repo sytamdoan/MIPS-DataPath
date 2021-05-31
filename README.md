@@ -1,1 +1,3 @@
 # MIPS-DataPath
+
+This MIPS datapath project was written in VHDL and was for my COmputer Architecture class. The file provided by the instructor for this project include the InstMem(instruction memory), regfile (register file), and datamem (data memory). Besides the files just listed, everything else is written and tested by me with a test bench. This data path only accepts R-type and I-type instructions. The datapath reads instructions from the instruction memory, then performs operations depending on what instructions are read. A PNG picture is also included to show how the datapath is connected. The block diagram in the picture , and every file in this project, is created using the Vivdo IP integrator. 
